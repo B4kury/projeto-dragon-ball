@@ -1,0 +1,16 @@
+ul.geracao {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px 50px ;
+    list-style-type: none;
+}
+
+ul.personagens {
+    list-style-type: none;
+    position: fixed;
+    top: 50%;
+    right: 50px;
+}
