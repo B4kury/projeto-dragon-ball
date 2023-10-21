@@ -56,6 +56,8 @@ div.azul{
 }
 
 div.cinza{
+    font-family: serif;
+    font-size: 16px;
     position: fixed;
     top: 40%;
     left: 10%;
