@@ -1,4 +1,16 @@
+@font-face {
+    font-family: 'dbfont';
+    src: url("./_FONTS/DragonballZ/Saiyan-Sans.ttf");
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 li.geracao{
+    font-family: 'dbfont';
+    font-size: 21px;
     margin-left: 60px;
     list-style-type: none; 
     align-items: center;
@@ -8,11 +20,11 @@ li.geracao{
 }
 
 li.personagem{
+    font-family: 'dbfont';
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: ;
     margin-top: 25px;
     margin-right: 100%;
     margin-left: -20px;
@@ -26,40 +38,150 @@ main{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #FF02D7;
+    background-image: url(./_IMG/629584.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-div.verde{
+img.logogera{
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 20%;
+}
+
+img.personagem{
+    margin-top: -10%;
+    margin-left: 60%;
+    width: 30%
+}
+
+button.botaogoku{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/goku\ retrato.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaobulma{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/bulmaclassicretrato-removebg-preview.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaokame{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/Mutenroshi-Kame-Senin-Dragon-BAll-removebg-preview.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaoyamtcha{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/yancha.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaokrillim{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/krillim.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaotenshin{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/tenchinhan.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaopiccolo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/piccolo.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaochichi{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/chichi.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaogohan{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/songohan.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+button.botaoshenlong{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./_IMG/shenlong.png);
+    background-size: cover;
+    background-color: orangered;
+}
+
+
+div.geracao{
     position: fixed;
     top: 10px;
     left: 10%;
     width: 80%;
     height: 50px;
-    background-color: #14FC00;
+    text-shadow: 5px 4px 10px white;
 }
 
-div.azul{
+div.personagens{
     position: fixed;
     align-content: center;
     top: 50px;
     right: 35px;
     width: 60px;
     height: 80%;
-    background-color: #00E0FF;
 }
 
-div.cinza{
+div.texto{
+    font-family: serif;
+    font-size: 16px;
     position: fixed;
-    top: 40%;
-    left: 10%;
-    width: 40%;
+    top: 35%;
+    left: 20%;
+    width: 25%;
     height: 40%;
-    background-color: #D9D9D9;
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
 }
 
 p.textopersonagem{
-    
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    text-shadow: 5px 3px 5px black;
+
 }
